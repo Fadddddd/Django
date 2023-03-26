@@ -43,6 +43,7 @@ ul {
 a.article-title:hover {
   color: #428bca;
   text-decoration: none;
+  margin-top: 30px;
 }
 
 .article-content {
