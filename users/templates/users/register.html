@@ -7,14 +7,16 @@
                 <legend class="form-group">
                     Join Today
                 </legend>
-                {{ form }}
+                {{ form.as_p }}
             </fieldset>
             <div class="form-group">
                 <button class="btn btn-outline-info" type="submit">Sign Up</button>
             </div>
         </form>
         <div class="border-top pt-3">
-            <small class="text-muted">Already have an Account? <a href=""</small>
+            <small class="text-muted">
+                Already have an Account? <a class="ml-2" href="#"> Sign In</a>
+            </small>
         </div>
     </div>
 {% endblock content %}
